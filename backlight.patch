@@ -1,0 +1,6 @@
+--- a/drivers/gpu/drm/i915/intel_panel.c
++++ b/drivers/gpu/drm/i915/intel_panel.c
+@@ -1098,2 +1098,2 @@ 
+-	panel->backlight.min = get_backlight_min_vbt(connector);
++	panel->backlight.min = 0;
+ 
